@@ -1,5 +1,25 @@
 # Mermaid: Mindmap Discovery
 
+## Diagram
+
+```mermaid
+mindmap
+  root((Platform work))
+    Authentication
+      SSO
+      MFA
+    Observability
+      Logs
+      Metrics
+      Traces
+    Deployment
+      CI
+      CD
+      Rollback
+```
+
+## Syntax
+
 ````md
 ```mermaid
 mindmap

@@ -1,5 +1,19 @@
 # Mermaid: Architecture Platform
 
+## Diagram
+
+```mermaid
+architecture-beta
+    group cloud(cloud)[Cloud]
+    service ui(server)[Web UI] in cloud
+    service api(server)[API] in cloud
+    service db(database)[Primary DB] in cloud
+    ui:R --> L:api
+    api:B --> T:db
+```
+
+## Syntax
+
 ````md
 ```mermaid
 architecture-beta

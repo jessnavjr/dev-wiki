@@ -1,5 +1,19 @@
 # Azure DevOps Wiki Variation: GitGraph Release Flow
 
+## Diagram
+
+```mermaid
+gitGraph
+    commit id: "Initial"
+    branch develop
+    checkout develop
+    commit id: "Feature A"
+    checkout main
+    merge develop id: "Release merge"
+```
+
+## Syntax
+
 ```md
 ::: mermaid
 gitGraph

@@ -1,5 +1,17 @@
 # Mermaid: Treemap Ownership
 
+## Diagram
+
+```mermaid
+treemap-beta
+    "Platform"
+        "Auth": 35
+        "Docs": 15
+        "API": 50
+```
+
+## Syntax
+
 ````md
 ```mermaid
 treemap-beta

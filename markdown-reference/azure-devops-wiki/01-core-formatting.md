@@ -1,5 +1,24 @@
 # Azure DevOps Wiki Variation: Core Formatting
 
+## Example
+
+## Page title
+
+Line one with a forced break.  
+Line two on the next rendered line.
+
+> Quoted note
+
+---
+
+- Bullet
+1. Ordered item
+- [ ] Task item
+
+<u>Underline in wiki HTML</u>
+
+## Syntax
+
 ```md
 # Page title
 

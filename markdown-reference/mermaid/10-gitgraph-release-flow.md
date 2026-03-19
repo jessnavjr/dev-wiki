@@ -1,5 +1,25 @@
 # Mermaid: GitGraph Release Flow
 
+## Diagram
+
+```mermaid
+gitGraph
+    commit id: "Initial"
+    branch develop
+    checkout develop
+    commit id: "Feature A"
+    commit id: "Feature B"
+    checkout main
+    merge develop id: "Release merge"
+    branch hotfix
+    checkout hotfix
+    commit id: "Critical fix"
+    checkout main
+    merge hotfix id: "Hotfix merge"
+```
+
+## Syntax
+
 ````md
 ```mermaid
 gitGraph

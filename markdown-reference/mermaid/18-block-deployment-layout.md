@@ -1,5 +1,24 @@
 # Mermaid: Block Deployment Layout
 
+## Diagram
+
+```mermaid
+block
+    columns 2
+    block:frontend
+        columns 1
+        WebUI["Web UI"]
+        AdminUI["Admin UI"]
+    end
+    block:backend
+        columns 1
+        API
+        Worker
+    end
+```
+
+## Syntax
+
 ````md
 ```mermaid
 block

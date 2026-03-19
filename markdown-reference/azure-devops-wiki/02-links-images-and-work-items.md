@@ -1,5 +1,19 @@
 # Azure DevOps Wiki Variation: Links Images And Work Items
 
+## Example
+
+[Sibling page](./another-page.md)
+
+[Wiki page](/parent-page/child-page)
+
+[Section on another page](/parent-page/child-page#deployment-notes)
+
+See work item #1234.
+
+Use \#ff0000 if you need a literal hash value.
+
+## Syntax
+
 ```md
 [Sibling page](./another-page.md)
 [Wiki page](/parent-page/child-page)

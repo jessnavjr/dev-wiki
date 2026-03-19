@@ -1,5 +1,16 @@
 # Azure DevOps Wiki Variation: Attachments And Emoji
 
+## Example
+
+- **Happy** \:smile:
+- **Literal hash** \#not-a-work-item
+
+Actual emoji reaction: :smile:
+
+[Release notes attachment](.attachments/release-notes.pdf)
+
+## Syntax
+
 ```md
 - **Happy** \:smile:
 - **Literal hash** \#not-a-work-item

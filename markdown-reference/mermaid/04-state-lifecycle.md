@@ -1,5 +1,20 @@
 # Mermaid: State Lifecycle
 
+## Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Review
+    Review --> Approved
+    Review --> Rejected
+    Rejected --> Draft
+    Approved --> Published
+    Published --> Archived
+```
+
+## Syntax
+
 ````md
 ```mermaid
 stateDiagram-v2

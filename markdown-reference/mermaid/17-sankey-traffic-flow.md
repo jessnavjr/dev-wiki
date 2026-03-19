@@ -1,5 +1,18 @@
 # Mermaid: Sankey Traffic Flow
 
+## Diagram
+
+```mermaid
+sankey
+
+    Web,API,120
+    API,Cache,40
+    API,DB,80
+    DB,Warehouse,25
+```
+
+## Syntax
+
 ````md
 ```mermaid
 sankey

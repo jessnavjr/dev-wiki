@@ -1,5 +1,24 @@
 # Azure DevOps Wiki Variation: ER Data Model
 
+## Diagram
+
+```mermaid
+erDiagram
+    PROJECT ||--o{ TASK : contains
+    USER ||--o{ TASK : assigned_to
+
+    PROJECT {
+        string project_id
+        string name
+    }
+    TASK {
+        string task_id
+        string status
+    }
+```
+
+## Syntax
+
 ```md
 ::: mermaid
 erDiagram
